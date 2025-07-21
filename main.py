@@ -6,8 +6,8 @@ import azure.cognitiveservices.speech as speechsdk
 
 # --- ATENÇÃO: INSERINDO CHAVES DIRETAMENTE NO CÓDIGO ---
 # É uma MÁ PRÁTICA de segurança. Use um arquivo .env para chaves reais em produção.
-speech_key = "8d0cf4c7db784c78b4072b412d4e6633"  # Sua CHAVE 2 do Azure Speech Service
-speech_region = "brazilsouth"                 # Sua REGIÃO do Azure Speech Service
+speech_key = "SUA CHAVE"  # Sua CHAVE 2 do Azure Speech Service
+speech_region = "SUA REGIÃO"                 # Sua REGIÃO do Azure Speech Service
 
 # Caminho para o arquivo de áudio local que você quer transcrever
 # Para testar com áudios longos, você precisará de um URI de blob storage.
