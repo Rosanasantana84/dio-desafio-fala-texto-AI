@@ -160,7 +160,6 @@ dio-desafio-fala-texto-AI/
 ├── docs/                         # Pasta para documentação adicional (ex: testes_transcricao.md)
 │   └── testes_transcricao.md     # Documento detalhando os testes e resultados (opcional)
 └── README.md                     # Este arquivo (documentação principal do projeto)
-                  # Este arquivo
 
 🤝 **Contribuições**
 Sinta-se à vontade para explorar, testar e sugerir melhorias.
