@@ -5,9 +5,16 @@ import azure.cognitiveservices.speech as speechsdk
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
+<<<<<<< HEAD
 # --- CARREGAR VARIÁVEIS DE AMBIENTE DO ARQUIVO .env ---
 # Garante que as variáveis do .env sejam carregadas no início do script.
 load_dotenv() # Mantenha esta linha para carregar outras possíveis variáveis do .env
+=======
+# --- ATENÇÃO: INSERINDO CHAVES DIRETAMENTE NO CÓDIGO ---
+# É uma MÁ PRÁTICA de segurança. Use um arquivo .env para chaves reais em produção.
+speech_key = "SUA CHAVE"  # Sua CHAVE 2 do Azure Speech Service
+speech_region = "SUA REGIÃO"                 # Sua REGIÃO do Azure Speech Service
+>>>>>>> ff3466da72c4a469d549f2254dd2ccda8734c5dc
 
 # --- CONFIGURAÇÕES DO SEU RECURSO AZURE SPEECH (DIRETAMENTE NO CÓDIGO) ---
 # ATENÇÃO: É uma MÁ PRÁTICA de segurança inserir chaves diretamente no código.
@@ -217,5 +224,9 @@ if __name__ == "__main__":
     print("o Azure Speech Service requer que o áudio seja hospedado em um Azure Blob Storage e")
     print("que seja utilizada a funcionalidade de 'Transcrição em Lote'.")
     print("O código comentado 'submit_batch_transcription_job' mostra a estrutura para isso.")
+<<<<<<< HEAD
     print("Para a entrega básica na DIO, você pode focar no teste de transcrição local com um áudio curto,")
     print("e documentar que para áudios longos, o método de transcrição em lote via Blob Storage seria utilizado.")
+=======
+    print("Para a entrega básica na DIO, você pode focar no teste de transcrição local com um áudio curto, e documentar que para áudios longos, o método de transcrição em lote via Blob Storage seria utilizado.")
+>>>>>>> ff3466da72c4a469d549f2254dd2ccda8734c5dc
